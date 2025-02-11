@@ -2,11 +2,16 @@ import streamlit as st
 import joblib
 import pandas as pd
 from funcs import yes_no_to_binary
+import os
 
+# Navigate directories
+parent_dir = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
+model_path = os.path.join(parent_dir, "best_model.pkl")
+scaler_path = os.path.join(parent_dir, "scaler.pkl")
 
-# Load the trained model
-model = joblib.load('../best_model.pkl')
-scaler = joblib.load('../scaler.pkl')
+# Load the trained model and scaler
+model = joblib.load(model_path)
+scaler = joblib.load(scaler_path)
 
 # Title of the app
 st.title("🤰🏾 Mode of Delivery Prediction App")
