@@ -1,0 +1,172 @@
+# Maternal and Fetal Health Data Columns
+
+## Maternal Demographics and Background
+- **AGE**: The age of the mother at the time of delivery.
+- **COUPLE SITUATION**: The relationship status of the mother (e.g., single, married, partnered).
+- **HEIGHT**: The height of the mother, typically measured in centimeters.
+- **WEIGHT**: The weight of the mother, typically measured in kilograms.
+- **BMI**: Body Mass Index, calculated as weight (kg) divided by height (m) squared.
+- **COUNTRY OF ORIGYN**: The country of origin of the mother.
+- **MATERNAL EDUCATION**: The level of education attained by the mother (e.g., primary, secondary, tertiary).
+- **START ANTENATAL CARRE**: The gestational age at which the mother began antenatal care.
+- **SUBSTANCE ABUSE**: Indicates whether the mother abused substances during pregnancy.
+- **SMOKING**: Indicates whether the mother smoked during pregnancy.
+- **CIGARRETTES PER DAY**: The number of cigarettes the mother smoked per day during pregnancy.
+- **ALCOHOL**: Indicates whether the mother consumed alcohol during pregnancy.
+- **DAILY ALCOHOL INTAKE**: The amount of alcohol the mother consumed daily during pregnancy.
+- **KG INCREASED PREGNANCY**: The weight gain (in kilograms) during pregnancy.
+- **ART**: Assisted Reproductive Technology (e.g., IVF) used to achieve pregnancy.
+- **ART MODE**: The specific method of Assisted Reproductive Technology used (e.g., IVF, ICSI).
+- **AMNIOCENTESIS**: Indicates whether amniocentesis (a prenatal diagnostic test) was performed.
+- **PREVIOUS CESAREAN**: Indicates whether the mother had a previous cesarean section.
+- **NUMBER OF PREV CESAREAN**: The number of previous cesarean sections the mother has had.
+- **COMORBIDITY**: The presence of one or more additional medical conditions (e.g., hypertension, diabetes) alongside the pregnancy.
+- **OBSTETRIC RISK**: Indicates whether the mother has any obstetric risk factors (e.g., high blood pressure, diabetes).
+- **PREVIOUS TERM PREGNANCIES**: The number of previous pregnancies that reached full term (37 weeks or more).
+- **PREVIOUS PRETERM PREGNANCIES**: The number of previous pregnancies that ended before 37 weeks.
+- **MISCARRIAGES**: The number of previous miscarriages the mother has experienced.
+- **ALIVE NEW BORNS**: The number of live births resulting from the current pregnancy.
+- **PARITY**: The number of times the mother has given birth, including stillbirths and live births.
+
+## Labor and Delivery
+- **PREINDUCTION**: Any procedures or medications used to prepare the cervix for labor induction.
+- **INDUCTION**: The process of artificially stimulating labor using medications or other methods.
+- **HOURS ROM BEFORE INDUCTION**: The number of hours between the rupture of membranes (ROM) and the start of labor induction.
+- **ANESTHESIA**: Indicates whether anesthesia was used during childbirth (e.g., epidural, spinal, or none).
+- **HOURS OF RUPTURED MEMBRANES AT DELIVERY**: The duration between the rupture of membranes and delivery.
+- **GESTAGIONAL AGE**: The age of the fetus in weeks at the time of birth, calculated from the first day of the last menstrual period.
+- **CARDIOTOCOGRAPHY**: A test performed during pregnancy to monitor the fetal heart rate and uterine contractions.
+- **TYPE OF BIRTH**: The method of delivery (e.g., vaginal, cesarean, forceps-assisted).
+- **EPISIOTOMY**: A surgical cut made at the opening of the vagina during childbirth to aid delivery.
+- **TEAR**: Indicates whether a perineal tear occurred during delivery.
+- **MEDICAL INDICATION**: The medical reason for interventions such as induction or cesarean section.
+- **EMERGENCY CESAREAN SECTION**: Indicates whether an emergency cesarean section was performed.
+- **PROGRAMMED CESAREAN SECTION**: Indicates whether a planned (programmed) cesarean section was performed.
+- **OXYTOCIN**: Indicates whether oxytocin was used to induce or augment labor.
+- **AMNIOTIC LIQUID**: The condition of the amniotic fluid (e.g., clear, meconium-stained).
+- **Fetal INTRAPARTUM pH**: The pH level of the fetus’s blood during labor, indicating fetal distress or acidosis.
+- **COMPLICATIONS**: Any complications that occurred during labor or delivery.
+- **ROBSON GROUP**: A classification system used to categorize cesarean sections based on maternal and obstetric characteristics.
+- **CESAREAN IN ACCORDANCE TO CLINICAL STANDARD**: Indicates whether the cesarean section was performed according to clinical guidelines.
+
+## Pregnancy Complications
+- **COLESTASIS GRAVIDICA**: A liver condition that occurs during pregnancy, causing itching and elevated bile acids.
+- **CORIONAMNIONITIS**: An infection of the placental tissues and amniotic fluid.
+- **NON ID GESTATIONAL DIABETES**: Gestational diabetes not requiring insulin treatment.
+- **ID GESTATIONAL DIABETES**: Gestational diabetes requiring insulin treatment.
+- **PROLONGED PREGNANCY**: A pregnancy that extends beyond 42 weeks.
+- **MULTIPLE GESTATION**: Indicates whether the pregnancy involved multiple fetuses (e.g., twins, triplets).
+- **HELLP**: A severe form of preeclampsia involving hemolysis, elevated liver enzymes, and low platelet count.
+- **GESTATIONAL HYPERTENSION**: High blood pressure that develops during pregnancy.
+- **ISOINMUNIZACION**: A condition where the mother’s immune system attacks fetal blood cells (e.g., Rh incompatibility).
+- **STAINED AMNIOTIC LIQUOR**: Amniotic fluid stained with meconium, indicating fetal distress.
+- **FETAL MALFORMATION**: Any congenital abnormalities in the fetus.
+- **UTERINE MALFORMATION**: Any congenital or acquired abnormalities in the shape or structure of the uterus.
+- **FETAL MALPOSITION**: The position of the fetus in the uterus (e.g., breech, transverse).
+- **MIOMECTOMY**: Surgical removal of uterine fibroids, which may affect pregnancy.
+- **OLIGOAMNIOS**: A condition where there is too little amniotic fluid.
+- **PREVIOUS PRETERM DELIVERY**: Indicates whether the mother had a previous preterm delivery.
+- **PLACENTA PREVIA**: A condition where the placenta covers the cervix, which can complicate delivery.
+- **POLIHIDRAMNIOS**: A condition where there is too much amniotic fluid.
+- **SEVERE PREECLAMPSIA**: A severe form of preeclampsia, characterized by high blood pressure and organ damage.
+- **MILD PREECLAMPSIA**: A milder form of preeclampsia.
+- **PROM**: Premature Rupture of Membranes, where the amniotic sac breaks before labor begins.
+- **SIFILIS**: Indicates whether the mother had syphilis during pregnancy.
+- **TOXOPLASMOSIS**: Indicates whether the mother had toxoplasmosis during pregnancy.
+
+## Maternal Medical History
+- **PREVIOUS CESAREAN**: Indicates whether the mother had a previous cesarean section.
+- **REPEATED MISCARRIAGES**: Indicates whether the mother had multiple miscarriages.
+- **PREVIOUS FETAL LOSSES**: Indicates whether the mother had previous stillbirths or fetal losses.
+- **ANTEPARTUM LOSS OF FETAL WELL BEEING**: Indicates a loss of fetal well-being before delivery.
+- **MATERNAL ANEMIA**: Indicates whether the mother had anemia during pregnancy.
+- **ASTHMA**: Indicates whether the mother had asthma during pregnancy.
+- **CARDIAC DISEASE**: Indicates whether the mother had heart disease during pregnancy.
+- **Coagulopathy**: A condition affecting blood clotting, which may complicate pregnancy.
+- **PREGESTATIONAL TYPE I DIABETES**: Type 1 diabetes present before pregnancy.
+- **PREGESTATIONAL TYPE II DIABETES**: Type 2 diabetes present before pregnancy.
+- **AUTOINMUNE DISEASE IN TREATMENT**: Indicates whether the mother was receiving treatment for an autoimmune disease during pregnancy.
+- **EPILEPSY IN TREATMENT**: Indicates whether the mother was receiving treatment for epilepsy during pregnancy.
+- **MENTAL DISEASE IN TREATMENT**: Indicates whether the mother was receiving treatment for a mental health condition during pregnancy.
+- **NEUROLOGICAL DISEASE IN TREATMENT**: Indicates whether the mother was receiving treatment for a neurological disorder during pregnancy.
+- **RENAL DISEASE IN TREATMENT**: Indicates whether the mother was receiving treatment for kidney disease during pregnancy.
+- **Hemiplegia**: A condition involving paralysis of one side of the body, which may be relevant to the mother’s medical history.
+- **LIVER DISEASE IN TREATMENT**: Indicates whether the mother was receiving treatment for liver disease during pregnancy.
+- **HIPERTHYROIDISM IN TREATMENT**: Indicates whether the mother was receiving treatment for hyperthyroidism during pregnancy.
+- **HIPOTHYROIDISM IN TREATMENT**: Indicates whether the mother was receiving treatment for hypothyroidism during pregnancy.
+- **HIV +**: Indicates whether the mother was HIV-positive during pregnancy.
+- **CHRONIC HYPERTENSION**: High blood pressure that was present before pregnancy.
+- **MALIGNANT TUMOR**: Indicates whether the mother had a malignant tumor (cancer) during pregnancy.
+- **HVC +**: Indicates whether the mother was Hepatitis C-positive during pregnancy.
+- **HVB +**: Indicates whether the mother was Hepatitis B-positive during pregnancy.
+
+## Fetal Outcomes
+- **Amniocentesis**: A prenatal diagnostic test to check for genetic abnormalities.
+- **CORIONIC BIOPSY**: A test to sample placental tissue for genetic analysis.
+- **Cordocentesis**: A procedure to sample fetal blood from the umbilical cord.
+- **Cannabis**: Indicates whether the mother used cannabis during pregnancy.
+- **COCCAINE**: Indicates whether the mother used cocaine during pregnancy.
+- **Heroin**: Indicates whether the mother used heroin during pregnancy.
+- **others**: Indicates other substances or drugs used by the mother during pregnancy.
+- **IUGR**: Intrauterine Growth Restriction, where the fetus grows slower than expected.
+- **Colestasis**: A liver condition causing itching and elevated bile acids during pregnancy.
+- **Corionamnionitis**: Infection of the placental tissues and amniotic fluid.
+- **Diabetes**: Indicates whether the mother had diabetes during pregnancy.
+- **ABNORMAL DOPPLER**: Abnormal blood flow in the umbilical or uterine arteries, indicating fetal distress.
+- **PROLONGED PREGNANCY**: A pregnancy that extends beyond 42 weeks.
+- **Exitus Fetal**: Indicates fetal death before or during delivery.
+- **GESTATIONAL HYPERTENSION**: High blood pressure that develops during pregnancy.
+- **STAINED AMNIOTIC LIQUID**: Amniotic fluid stained with meconium, indicating fetal distress.
+- **NON CONFIDENT NST**: Non-reassuring non-stress test results, indicating potential fetal distress.
+- **Oligoamnios**: A condition where there is too little amniotic fluid.
+- **MATERNAL DISEASE**: Any maternal disease affecting pregnancy.
+- **Preeclampsia**: A pregnancy complication characterized by high blood pressure and organ damage.
+- **PROM**: Premature Rupture of Membranes, where the amniotic sac breaks before labor begins.
+- **INITIAL PROLONGED PREGNANCY**: A pregnancy that extends beyond the due date.
+- **OTHERS**: Other unspecified conditions or factors.
+
+## Postpartum Complications
+- **UTERINE ATONY**: A condition where the uterus fails to contract after delivery, leading to postpartum hemorrhage.
+- **AMNIOTIC LIQUID EMBOLISM**: A rare but life-threatening complication where amniotic fluid enters the mother’s bloodstream.
+- **PERINEAL HEMATOMA**: A collection of blood in the perineal area after delivery.
+- **UTERINE HAEMORRAGE**: Excessive bleeding from the uterus after delivery.
+- **INVERTED UTERUS**: A rare complication where the uterus turns inside out after delivery.
+- **MATERNAL DEATH**: Indicates whether the mother died during or shortly after childbirth.
+- **RETAINED PLACENTA**: A condition where the placenta is not expelled from the uterus after childbirth.
+- **UTERINE RUPTURE**: A rare but serious complication where the uterus tears during labor.
+- **PULMONAR THROMBOEMBOLISM**: A blood clot that blocks an artery in the lungs, which can occur during or after pregnancy.
+- **DEEP VENOUS THROMBOSIS**: A blood clot that forms in a deep vein, often in the legs, which can occur during or after pregnancy.
+- **SHOULDER DYSTOCIA**: A complication during delivery where the baby’s shoulder gets stuck behind the mother’s pelvic bone.
+- **TEAR.1**: refers to a perineal tear during delivery.
+- **TEAR REPAIR**: Indicates whether a perineal tear was repaired after delivery.
+- **MANUAL EXTRACTION OF PLACENTA**: Indicates whether the placenta was manually removed after delivery.
+- **HISTERECTOMY**: Indicates whether a hysterectomy (removal of the uterus) was performed after delivery.
+- **POSTPARTUM CURETAGE**: A procedure to remove remaining placental tissue from the uterus after delivery.
+- **REPOSITION OF INVERTED UTERUS**: A procedure to correct an inverted uterus.
+- **BLOOD TRANSFUSION**: Indicates whether the mother received a blood transfusion after delivery.
+- **MEDICAL TREATMENT**: Any medical treatment provided postpartum.
+- **MANUAL ASSITANCE TO SHOULDER DYSTOCIA**: Indicates whether manual assistance was provided to resolve shoulder dystocia.
+- **ARTHERIAL EMBOLIZATION**: A procedure to stop bleeding by blocking blood vessels.
+- **HEMATOMAL DRAINAGE**: Draining of a hematoma (collection of blood) after delivery.
+
+## Fetal Outcomes (Detailed)
+- **INTRAPARTUM pH value**: The pH level of the fetus’s blood during labor, indicating fetal distress or acidosis.
+- **sex fetus 1**: The sex of the first fetus (e.g., male or female).
+- **weight fetus 1**: The birth weight of the first fetus, typically measured in grams or kilograms.
+- **apgar fetus 1**: The Apgar score of the first fetus at 1 minute after birth.
+- **apgar fetus 1 five min**: The Apgar score of the first fetus at 5 minutes after birth.
+- **pH value fetus 1 umbilical arthery**: The pH level of the blood from the umbilical artery of the first fetus.
+- **exitusfetal fetus 1**: Indicates whether the first fetus died (fetal demise) before or during delivery.
+- **FETUS 1 ADMISSION ICU**: Indicates whether the first fetus was admitted to the Neonatal Intensive Care Unit (NICU) after birth.
+- **FETUS 1 RECOVERY**: Indicates the recovery status of the first fetus after birth.
+- **FETUS 1 MECONIUM ASPIRATION SYNDROME**: Indicates whether the first fetus experienced meconium aspiration syndrome.
+
+## Unidentified columns
+- **LOC**: --------------------------
+- **REG**: --------------------------
+- **GEN**: --------------------------
+- **TIP**: --------------------------
+- **SGD**: --------------------------
+- **Unnamed: 45**: ------------------
+- **Unnamed: 46**: ------------------
+- **Unnamed: 47**: ------------------
