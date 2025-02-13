@@ -32,7 +32,7 @@ with col1:
     complications = yes_no_to_binary("Complications", "selectbox")
     cardiotocography_None = yes_no_to_binary("Cardiotocography None", "selectbox")
     fetal_malformation = yes_no_to_binary("Fetal Malformation", "selectbox")
-    sifilis = yes_no_to_binary("Syphilis", "selectbox")
+    amniotic_liquid_clear = yes_no_to_binary("Amniotic Liquid Clear", "selectbox")
     induction = yes_no_to_binary("Induction", "selectbox")
     previous_cesarean = yes_no_to_binary("Previous Cesarean", "selectbox")
     amniotic_liquid_stained = yes_no_to_binary("Amniotic Liquid Stained", "selectbox")
@@ -54,15 +54,15 @@ with col2:
     preinduction = yes_no_to_binary("Preinduction", "selectbox")
     malignant_tumor = yes_no_to_binary("Malignant Tumor", "selectbox")
     cardiotocography_discontinuous = yes_no_to_binary("Cardiotocography Discontinuous", "selectbox")
-    anesthesia = yes_no_to_binary("Anesthesia", "selectbox")
+    maternal_disease = yes_no_to_binary("Maternal Disease", "selectbox")
 
 
 # Create a dictionary of input features
 input_data = {
     'age': age,
     'alive_new_borns': alive_new_borns,
+    'amniotic_liquid_clear': amniotic_liquid_clear,
     'amniotic_liquid_stained': amniotic_liquid_stained,
-    'anesthesia': anesthesia,
     'bmi': bmi,
     'c_weight': c_weight,
     'cardiotocography_None': cardiotocography_None,
@@ -77,6 +77,7 @@ input_data = {
     'induction': induction,
     'initial_prolonged_pregnancy': initial_prolonged_pregnancy,
     'malignant_tumor': malignant_tumor,
+    'maternal_disease': maternal_disease,
     'miomectomy': miomectomy,
     'miscarriages': miscarriages,
     'non_id_gestational_diabetes': non_id_gestational_diabetes,
@@ -85,7 +86,6 @@ input_data = {
     'previous_term_pregnancies': previous_term_pregnancies,
     'prom': prom,
     'robson_group': robson_group,
-    'sifilis': sifilis,
     'uterine_malformation': uterine_malformation,
 
 }
