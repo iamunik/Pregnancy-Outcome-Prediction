@@ -1,10 +1,16 @@
 import streamlit as st
 from funcs import open_picture
 
+st.set_page_config(page_title="Pregnancy Outcome",
+                   page_icon="🤰🏾",
+                   layout="wide")
+
 st.title("Pregnancy Outcome Prediction Web App 🏥👶")
+
 st.markdown(f"""
 <img style="border: 2px solid powderblue" src="data:image/jpeg;base64,{open_picture("delivery.jpg")}" width="80%"><br>
 """, unsafe_allow_html=True)
+
 st.markdown("""
     ### Overview  
     This project is a **Pregnancy Outcome Prediction Web App** designed to help healthcare professionals predict 
