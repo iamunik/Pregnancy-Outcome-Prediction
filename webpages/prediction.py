@@ -3,6 +3,7 @@ import joblib
 import pandas as pd
 from funcs import yes_no_to_binary
 import os
+import time
 
 # Navigate directories
 parent_dir = os.path.dirname(os.path.dirname(__file__))
@@ -103,6 +104,10 @@ input_df_scaled = pd.DataFrame(input_df_scaled, columns=input_df.columns)
 if st.button("Predict"):
     prediction = model.predict(input_df_scaled)
     prediction_proba = model.predict_proba(input_df_scaled)
+    with st.spinner("Verifying Input....."):
+        time.sleep(1)
+    with st.spinner("Predicting Outcome..."):
+        time.sleep(4)
 
     # Display the prediction
     st.subheader("Prediction")
@@ -110,6 +115,9 @@ if st.button("Predict"):
         st.write("The predicted mode of delivery is **Cesarean**.")
     else:
         st.write("The predicted mode of delivery is **Vaginal**.")
+
+    with st.spinner("Calculating prediction probabilities..."):
+        time.sleep(3)
 
     # Display prediction probabilities
     st.subheader("Prediction Probabilities")
