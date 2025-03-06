@@ -1,6 +1,6 @@
 [theme]
-primaryColor = "#B71C1C"  # Deep red for buttons and highlights
-backgroundColor = "#FFEBEE"  # Soft pinkish-red for the main background
-secondaryBackgroundColor = "#E57373"  # Light red for secondary elements
-textColor = "#4A0000"  # Dark maroon for strong contrast
+primaryColor = "#06074e"  # Deep red for buttons and highlights
+backgroundColor = "#dce3f5"  # Soft pinkish-red for the main background
+secondaryBackgroundColor = "#5a8bf1"  # Light red for secondary elements
+textColor = "#172647"  # Dark maroon for strong contrast
 font = "serif"  # Classic
