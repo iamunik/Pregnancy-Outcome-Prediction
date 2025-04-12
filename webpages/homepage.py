@@ -2,7 +2,7 @@ import streamlit as st
 from funcs import open_picture
 
 st.set_page_config(page_title="Pregnancy Outcome",
-                   page_icon="🤰🏾",
+                   page_icon="🏥",
                    layout="wide")
 
 st.title("Pregnancy Outcome Prediction Web App 🏥👶")
