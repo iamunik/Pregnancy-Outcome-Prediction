@@ -1,58 +1,60 @@
 import streamlit as st
 from funcs import open_picture
 
-st.set_page_config(page_title="Pregnancy Outcome",
-                   page_icon="🏥",
-                   layout="wide")
+st.set_page_config(
+    page_title="Pregnancy Outcome Predictor",
+    page_icon="🏥",
+    layout="wide"
+)
 
-st.title("Pregnancy Outcome Prediction Web App 🏥👶")
+st.title("🩺 Intelligent Delivery Mode Prediction Platform 🏥👶")
 
 st.markdown(f"""
-<img style="border: 2px solid powderblue" src="data:image/jpeg;base64,{open_picture("delivery.jpg")}" width="80%"><br>
+<img style="border: 2px solid #b3a1c7" src="data:image/jpeg;base64,{open_picture('delivery.jpg')}" width="80%"><br>
 """, unsafe_allow_html=True)
 
 st.markdown("""
-    ### Overview  
-    This project is a **Pregnancy Outcome Prediction Web App** designed to help healthcare professionals predict 
-    possible pregnancy outcomes based on clinical data. The web app utilizes machine learning to provide accurate 
-    predictions and identify potential risks using a combination of user-friendly features and advanced technology.
+### Welcome  
+Our platform leverages advanced machine learning to support healthcare professionals in predicting the most probable 
+delivery method—vaginal or cesarean—tailored to each patient’s unique clinical profile. By entering key medical details, 
+clinicians receive immediate, data-driven insights to guide prenatal care and delivery planning.
 
-    ---
+---
 
-    ### 🎯 Project Goals  
-    - **Enhance Clinical Decision Support**: Provide quick and accurate predictions to assist in decision-making.  
-    - **Identify Risk Factors**: Use clinical data to predict pregnancy outcomes and flag potential risks early.  
-    - **Deliver an Intuitive User Experience**: Ensure ease of use with an interactive interface for data input and 
-    result display.  
+### 🌟 Key Goals  
+- **Empower Clinical Judgement**: Deliver rapid, evidence-based predictions to enhance decision-making.
+- **Highlight Critical Factors**: Surface patient-specific risks and indicators influencing delivery outcomes.
+- **Ensure Seamless Experience**: Offer a user-friendly, responsive interface for efficient data entry and result 
+review.
 
-    ---
+---
 
-    ### 🔑 Key Technologies  
-    - **Gradient Boosting Classifier**: The core machine learning algorithm used for predictions.  
-    - **Streamlit**: Powers the web app interface, making it interactive and user-friendly.  
-    - **Pandas and NumPy**: Used for data preprocessing to ensure clean and structured input for the model.  
-    - **Scikit-learn**: Used for model development, training, and evaluation.  
+### 🧩 Technology Stack  
+- **Gradient Boosting Classifier**: Delivers robust, high-accuracy predictions.
+- **Streamlit**: Powers the interactive, web-based user interface.
+- **Pandas & NumPy**: Manage data processing and validation.
+- **Scikit-learn**: Supports model development and integration.
 
-    ---
+---
 
-    ### 🔍 Project Workflow  
-    1. **User Data Input**: Users enter clinical data such as age, BMI, gestational age, and pregnancy history.  
-    2. **Data Preprocessing**: The input data is validated and transformed for the machine learning model.  
-    3. **Prediction Process**: The **Gradient Boosting Classifier** predicts the likely pregnancy outcome.  
-    4. **Result Display**: The prediction is displayed on the interface with information about potential risks.  
+### 🔬 How It Works  
+1. **Data Collection**: Enter clinical features such as age, BMI, gestational age, and obstetric history.
+2. **Automated Preprocessing**: The system prepares and validates your input for the model.
+3. **Prediction Engine**: The trained model analyzes the data and forecasts the likely delivery mode.
+4. **Clear Results**: Outcomes and relevant insights are presented instantly for your review.
 
-    ---
+---
 
-    ### ⚙️ Implementation Details  
-    - **Feature Engineering**: The model uses key clinical features like age, BMI, gestational age, and pregnancy 
-    history for predictions.  
-    - **Model Training**: The Gradient Boosting Classifier was trained on historical pregnancy records to ensure 
-    high accuracy.  
-    - **User Interface**: Built with Streamlit for simplicity and ease of use.  
+### ⚙️ System Highlights  
+- **Comprehensive Feature Set**: Incorporates essential maternal and fetal indicators.
+- **Clinically Validated Model**: Trained on real-world delivery data for reliable performance.
+- **Optimized for Practice**: Designed for ease of use in busy clinical environments.
 
-    ---
+---
 
-    ### 🚀 Conclusion  
-    This web app brings together advanced machine learning and clinical data to help healthcare professionals make 
-    better decisions and improve maternal health outcomes.  
-    """)
+### 🤝 Our Commitment  
+We are dedicated to integrating intelligent automation into maternal care, helping providers anticipate delivery needs 
+and optimize patient outcomes. This tool is crafted to enhance both the quality and efficiency of prenatal care, 
+fostering confidence and clarity in every decision.
+
+""")
