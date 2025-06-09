@@ -1,6 +1,6 @@
 [theme]
-primaryColor = "#06074e"  # Deep red for buttons and highlights
-backgroundColor = "#dce3f5"  # Soft pinkish-red for the main background
-secondaryBackgroundColor = "#5a8bf1"  # Light red for secondary elements
-textColor = "#172647"  # Dark maroon for strong contrast
-font = "serif"  # Classic
+primaryColor = "#e69ca7"              # Soft rose pink for buttons and highlights
+backgroundColor = "#2e1f2b"           # Deep plum / mauve-black for background
+secondaryBackgroundColor = "#3e2a35"  # Muted plum for cards and sidebars
+textColor = "#fcefe9"                 # Soft cream-pink for readability
+font = "serif"                        # Calm, nurturing serif font
